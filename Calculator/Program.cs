@@ -34,12 +34,13 @@ namespace R365.Calculator
                 if (int.TryParse(str, out num))
                     {
                      total += num;
-                    }
+                    } 
             }
 
             Console.WriteLine("The total sum of your entry is: " + total);
             Console.WriteLine("Ok, bye.");
             Environment.Exit(0);
+
 
         }
     }
